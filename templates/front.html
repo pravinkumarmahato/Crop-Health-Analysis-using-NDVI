@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        body{
+        background-image: url('{{ url_for("static", filename="img/bg.jpg") }}');
+        height: 100%;
+        /* width : 100%; */
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+        .butn{
+        background-color:#008000;
+        color:#ffffff
+        }
+        
+        th,td {
+        text-align:center;
+        }
+    </style>
+</head>
+<body align="center">
+    <div id="content" style="padding-top:150px">
+        <div class="container-fluid decor_bg" id="login-panel">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <div class="panel panel-primary"  style="border:1px Green Solid">
+                        <div class="panel-heading" style="background:Green">
+                            <h4>Calculate NDVI of your plant</h4>
+                        </div>
+                        <div class="panel-body">
+                            <form role="form" style="text-align: center;">
+                                <div class="form-group">
+                                    <button class="btn btn-lg" style="background: Green;"><a href="http://localhost:1234/rgbupload" target="_blank" style="color: #ffffff;">Upload RGB Image</a></button>
+                                </div>
+                                <div class="form-group">
+                                    <p class="text-warning"><i></i></p>
+                                    <button class="btn btn-lg" style="background: Green;"><a href="http://localhost:1234/nirupload" target="_blank" style="color: #ffffff;">Upload NIR Image</a></button>
+                                </div>
+                                <button class="btn btn-lg" style="background: Green;"><a href="http://localhost:1234/get" style="color: #ffffff;">Calculate NDVI</a></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Flask==1.1.2
+flask-dropzone==1.5.1
+pillow==8.0.1
+pytest-shutil==1.7.0

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Static File Test</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url('/static/img/bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+        .test-container {
+            background: rgba(255,255,255,0.8);
+            padding: 20px;
+            margin: 50px auto;
+            max-width: 500px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1 class="text-primary">Static File Test</h1>
+        <p>If you can see the background image and Bootstrap styling, static files are working.</p>
+        <img src="/static/img/bg.jpg" alt="Background test" style="max-width: 200px; height: auto;">
+    </div>
+</body>
+</html>
