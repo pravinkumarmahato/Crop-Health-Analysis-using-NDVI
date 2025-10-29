@@ -3,10 +3,10 @@
 ## Problem Statement : Precision Agriculture Using Normalized Difference Vegetation Index
 
 ### Explanation Video
-https://drive.google.com/file/d/1AmsfofBZpDbOTCni3IlmD5OXvtTxnxYS/view?usp=sharing
+https://youtu.be/L9qOARq9S9k
 
 ### Demo Video
-https://drive.google.com/file/d/1lGD-7GHLMRJwrAEL9ck70HCgO3ysMzOh/view?usp=sharing
+https://youtu.be/MoILI6NdK5Q
 
 ### 1. What is NDVI : 
 Understanding your crops’ health status isn’t the easiest thing to do. Sure, you can use the “eye test”, and a number of foliar contact and direct measurement techniques. But, what if there was an easy, fast and efficient way to see the health of plants and their status and progress over time? That’s where Normalized Difference Vegetation Index (NDVI) data comes in.
